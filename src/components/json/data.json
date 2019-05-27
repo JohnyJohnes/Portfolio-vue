@@ -3,7 +3,7 @@
         "text": "Ukraninan software developer\n18 years old\n\nStudying in two universities\nHave a passion in proggramming\nA hard-worker\n\n\n"
     },
     {
-        "title": "Projects:"
+        "title": "Projects"
     },
     {
         "title": "LoPy Weather station",
@@ -30,8 +30,8 @@
     {
         "title": "Vue.js Todo-list-app",
         "text": "My first project with usage of vue.js.\nBasic ToDo application where you can add, remove, edit and cross out completed tasks.\n\n\n",
-        "link": "https://github.com/JohnyJohnes/JohnyJohnes.github.io",
+        "link": "https://github.com/JohnyJohnes/todo-list-vue.git",
         "hasLink": true,
-        "imgPath": "src/assets/TodoImg.png"
+        "img": "TodoImg.png"
     }
 ]

@@ -1,19 +1,19 @@
 <template>
   <div id="app">
-    <div class="headder">
+    <div class="headder" id="headder">
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="App.vue#app">Home</a>
+                    <a href="#headder">Home</a>
                 </li>
                 <li>
-                    <a href="App.vue#blocks">About me</a>
+                    <a href="#About me">About me</a>
                 </li>
                 <li>
-                    <a href="#blocks[2]">Projects</a>
+                    <a href="#Projects">Projects</a>
                 </li>
                 <li>
-                    <a href="App.vue#contact">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
@@ -24,7 +24,7 @@
     <div class="secondBackground">
       <div class="blocks"><BlockList v-bind:blocks="blocks"/></div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <h2>You can contact me via:</h2>
         <a class="email" href="mailto:ars9979@icloud.com">E-mail: ars9979@icloud.com</a>
         <a class="phone" href="tel:+31684941756">Tel:+31684941756</a>
@@ -63,7 +63,7 @@
 
 <style>
 .blocks{
-    background: -webkit-linear-gradient(#fabd9f, #88bdbc, #020202);
+    background: -webkit-linear-gradient(#fabd9f, #88bdbc,#004092, #112d32);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -78,69 +78,6 @@
 }
 
 body {
-    background-color: #88bdbc;
-    padding: 0%;
-    margin: 0%;
-}
-
-.headder {
-    height: fit-content;
-    background: linear-gradient(#004092, #020202, transparent), url(./assets/background.png) no-repeat center;
-    background-size: cover;
-    padding: 0%;
-}
-
-img {
-    margin-left: 300px;
-    margin-top: 150px;
-}
-
-h1 {
-    margin-left: 50%;
-    font-size: 6em;
-    color: #112d32;
-}
-
-nav {
-    float: right;
-    margin-top: 45px;
-    padding: 0;
-}
-
-.menu {
-    padding: 0;
-    margin: 0;
-    display: block;
-}
-
-.menu li {
-    float: left;
-    display: block;
-    margin-right: 41px;
-}
-
-.menu a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    color: #88bdbc;
-}
-
-.menu a:hover {
-    color: #2e9cca;
-}
-
-.menu a:active {
-    color: #88bdbc;
-}
-
-.secondBackground {
-    background: linear-gradient(#fabd9f, #020202, transparent);
-    width: 100%;
-    padding: 0%;
-    height: auto;
-    margin: 0%;
-}body {
     background-color: #88bdbc;
     padding: 0%;
     margin: 0%;
