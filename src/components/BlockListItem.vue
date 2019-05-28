@@ -3,7 +3,6 @@
         <div class="row">
             <div class="blockTitle" :id=block.title>{{block.title}}</div>
             <span class="mainText">{{block.text}}</span>
-            <img src="'../assets/${block.img}'">
             <a class="linkToGit" :href=block.link
             v-if="block.hasLink">Open repo</a>
         </div>

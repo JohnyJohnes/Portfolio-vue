@@ -19,6 +19,7 @@
             </ul>
         </nav>
         <img src="./assets/myPic.png" alt="myPic">
+        
         <h1>Arsenii Belyakov</h1>
     </div>
     <div class="secondBackground">
@@ -39,6 +40,7 @@
 <script>
   import BlockList from './components/BlockList'
   import json from './components/json/data.json'
+  import VueAnime from 'vue-animejs';
 
   export default {
     name: 'app',
